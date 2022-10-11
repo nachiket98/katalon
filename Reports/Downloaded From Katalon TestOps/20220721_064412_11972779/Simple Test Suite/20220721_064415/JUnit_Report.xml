@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Simple Test Suite" time="12.206" tests="1" failures="0" errors="0">
+   <testsuite name="Simple Test Suite" tests="1" failures="0" errors="0" time="12.206" skipped="0" timestamp="2022-07-21 06:44:21" hostname="agent - 671795linalllatest-834163-katalon-agent-jf5gb" id="Test Suites/Simple Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/katalon-agent/tmp/2022.07.21-6.43--41-OUzg537bitjB-834163/simple-web-tests-master/Reports/20220721_064412/Simple Test Suite/20220721_064415"/>
+         <property name="logFiles" value="/katalon-agent/tmp/2022.07.21-6.43--41-OUzg537bitjB-834163/simple-web-tests-master/Reports/20220721_064412/Simple Test Suite/20220721_064415/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="agent - 671795linalllatest-834163-katalon-agent-jf5gb"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 100.0.4896.60"/>
+         <property name="hostAddress" value="172.48.22.115"/>
+         <property name="sessionId" value="6b48d0223b3744611b002215bed7f658"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Form" time="11.794" classname="Test Cases/Form" status="PASSED">
+         <system-out><![CDATA[2022-07-21 06:44:21 - [TEST_CASE][PASSED] - Test Cases/Form: Test Cases/Form
+
+2022-07-21 06:44:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 06:44:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 06:44:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 06:44:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 06:44:23 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-test.s3.amazonaws.com/aut/html/form.html"): Navigate to 'https://katalon-test.s3.amazonaws.com/aut/html/form.html' successfully
+
+2022-07-21 06:44:24 - [MESSAGE][PASSED] - Navigate to 'https://katalon-test.s3.amazonaws.com/aut/html/form.html' successfully
+
+2022-07-21 06:44:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo AUT/input_First name_firstName"), "First name"): Text 'First name' is set on object 'Object Repository/Page_Demo AUT/input_First name_firstName'
+
+2022-07-21 06:44:25 - [MESSAGE][PASSED] - Text 'First name' is set on object 'Object Repository/Page_Demo AUT/input_First name_firstName'
+
+2022-07-21 06:44:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo AUT/input_Last name_lastName"), "Last name"): Text 'Last name' is set on object 'Object Repository/Page_Demo AUT/input_Last name_lastName'
+
+2022-07-21 06:44:25 - [MESSAGE][PASSED] - Text 'Last name' is set on object 'Object Repository/Page_Demo AUT/input_Last name_lastName'
+
+2022-07-21 06:44:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo AUT/input_Female_gender")): Object: 'Object Repository/Page_Demo AUT/input_Female_gender' is clicked on
+
+2022-07-21 06:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo AUT/input_Female_gender' is clicked on
+
+2022-07-21 06:44:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo AUT/input_Date of birth_dob")): Object: 'Object Repository/Page_Demo AUT/input_Date of birth_dob' is clicked on
+
+2022-07-21 06:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo AUT/input_Date of birth_dob' is clicked on
+
+2022-07-21 06:44:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo AUT/td_1")): Object: 'Object Repository/Page_Demo AUT/td_1' is clicked on
+
+2022-07-21 06:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo AUT/td_1' is clicked on
+
+2022-07-21 06:44:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo AUT/input_Address_address"), "Address"): Text 'Address' is set on object 'Object Repository/Page_Demo AUT/input_Address_address'
+
+2022-07-21 06:44:27 - [MESSAGE][PASSED] - Text 'Address' is set on object 'Object Repository/Page_Demo AUT/input_Address_address'
+
+2022-07-21 06:44:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo AUT/input_Email_email"), "email@email.com"): Text 'email@email.com' is set on object 'Object Repository/Page_Demo AUT/input_Email_email'
+
+2022-07-21 06:44:28 - [MESSAGE][PASSED] - Text 'email@email.com' is set on object 'Object Repository/Page_Demo AUT/input_Email_email'
+
+2022-07-21 06:44:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Demo AUT/input_Password_password"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Page_Demo AUT/input_Password_password'
+
+2022-07-21 06:44:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Demo AUT/input_Password_password'
+
+2022-07-21 06:44:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo AUT/input_Company_company"), "Company"): Text 'Company' is set on object 'Object Repository/Page_Demo AUT/input_Company_company'
+
+2022-07-21 06:44:29 - [MESSAGE][PASSED] - Text 'Company' is set on object 'Object Repository/Page_Demo AUT/input_Company_company'
+
+2022-07-21 06:44:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Demo AUT/select_DeveloperQAManagerTechnical Architec_7258a1"), "QA", true): All options with value 'QA' are selected in object 'Object Repository/Page_Demo AUT/select_DeveloperQAManagerTechnical Architec_7258a1'  using regular expression
+
+2022-07-21 06:44:30 - [MESSAGE][PASSED] - All options with value 'QA' are selected in object 'Object Repository/Page_Demo AUT/select_DeveloperQAManagerTechnical Architec_7258a1'  using regular expression
+
+2022-07-21 06:44:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Demo AUT/select_High salaryNice managerleaderExcelle_8daca8"), "High salary", true): All options with value 'High salary' are selected in object 'Object Repository/Page_Demo AUT/select_High salaryNice managerleaderExcelle_8daca8'  using regular expression
+
+2022-07-21 06:44:31 - [MESSAGE][PASSED] - All options with value 'High salary' are selected in object 'Object Repository/Page_Demo AUT/select_High salaryNice managerleaderExcelle_8daca8'  using regular expression
+
+2022-07-21 06:44:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo AUT/input")): Object: 'Object Repository/Page_Demo AUT/input' is clicked on
+
+2022-07-21 06:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo AUT/input' is clicked on
+
+2022-07-21 06:44:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo AUT/textarea_Comment_comment"), "Comment"): Text 'Comment' is set on object 'Object Repository/Page_Demo AUT/textarea_Comment_comment'
+
+2022-07-21 06:44:32 - [MESSAGE][PASSED] - Text 'Comment' is set on object 'Object Repository/Page_Demo AUT/textarea_Comment_comment'
+
+2022-07-21 06:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo AUT/button_Submit")): Object: 'Object Repository/Page_Demo AUT/button_Submit' is clicked on
+
+2022-07-21 06:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo AUT/button_Submit' is clicked on
+
+2022-07-21 06:44:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-21 06:44:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-21 06:44:21 - [TEST_SUITE][PASSED] - Simple Test Suite: Test Cases/Form]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Simple Test Suite,Chrome 100.0.4896.60,,,2022-07-21 06:44:21,2022-07-21 06:44:33,12.206s,PASSED
+,,,,,,,
+Test Cases/Form,Chrome 100.0.4896.60,,,2022-07-21 06:44:21,2022-07-21 06:44:33,11.794s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.60,,,2022-07-21 06:44:21,2022-07-21 06:44:23,2.019s,PASSED
+"navigateToUrl(""https://katalon-test.s3.amazonaws.com/aut/html/form.html"")",Chrome 100.0.4896.60,,,2022-07-21 06:44:23,2022-07-21 06:44:24,0.410s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo AUT/input_First name_firstName""), ""First name"")",Chrome 100.0.4896.60,,,2022-07-21 06:44:24,2022-07-21 06:44:25,0.805s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo AUT/input_Last name_lastName""), ""Last name"")",Chrome 100.0.4896.60,,,2022-07-21 06:44:25,2022-07-21 06:44:25,0.577s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo AUT/input_Female_gender""))",Chrome 100.0.4896.60,,,2022-07-21 06:44:25,2022-07-21 06:44:26,0.536s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo AUT/input_Date of birth_dob""))",Chrome 100.0.4896.60,,,2022-07-21 06:44:26,2022-07-21 06:44:26,0.388s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo AUT/td_1""))",Chrome 100.0.4896.60,,,2022-07-21 06:44:26,2022-07-21 06:44:27,0.503s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo AUT/input_Address_address""), ""Address"")",Chrome 100.0.4896.60,,,2022-07-21 06:44:27,2022-07-21 06:44:27,0.722s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo AUT/input_Email_email""), ""email@email.com"")",Chrome 100.0.4896.60,,,2022-07-21 06:44:27,2022-07-21 06:44:28,0.728s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo AUT/input_Password_password""), ""p4y+y39Ir5MSxNs1t5lTZQ=="")",Chrome 100.0.4896.60,,,2022-07-21 06:44:28,2022-07-21 06:44:29,0.469s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo AUT/input_Company_company""), ""Company"")",Chrome 100.0.4896.60,,,2022-07-21 06:44:29,2022-07-21 06:44:29,0.736s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo AUT/select_DeveloperQAManagerTechnical Architec_7258a1""), ""QA"", true)",Chrome 100.0.4896.60,,,2022-07-21 06:44:29,2022-07-21 06:44:30,0.978s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Demo AUT/select_High salaryNice managerleaderExcelle_8daca8""), ""High salary"", true)",Chrome 100.0.4896.60,,,2022-07-21 06:44:30,2022-07-21 06:44:31,1.018s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo AUT/input""))",Chrome 100.0.4896.60,,,2022-07-21 06:44:31,2022-07-21 06:44:32,0.373s,PASSED
+"setText(findTestObject(""Object Repository/Page_Demo AUT/textarea_Comment_comment""), ""Comment"")",Chrome 100.0.4896.60,,,2022-07-21 06:44:32,2022-07-21 06:44:32,0.713s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo AUT/button_Submit""))",Chrome 100.0.4896.60,,,2022-07-21 06:44:32,2022-07-21 06:44:33,0.354s,PASSED
+closeBrowser(),Chrome 100.0.4896.60,,,2022-07-21 06:44:33,2022-07-21 06:44:33,0.077s,PASSED

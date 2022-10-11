@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order and check out multiple products,Chrome 103.0.5060.114,,,2022-07-21 13:36:24,2022-07-21 13:37:51,1m - 26.108s,PASSED
+,,,,,,,
+Test Cases/Data-driven samples/Order and check out multiple products,Chrome 103.0.5060.114,,,2022-07-21 13:36:25,2022-07-21 13:37:51,1m - 25.828s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 103.0.5060.114,,,2022-07-21 13:36:25,2022-07-21 13:36:40,15.045s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 103.0.5060.114,,,2022-07-21 13:36:40,2022-07-21 13:36:40,0.344s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 103.0.5060.114,,,2022-07-21 13:36:40,2022-07-21 13:36:44,3.804s,PASSED
+product = findTestData(dataFile),Chrome 103.0.5060.114,,,2022-07-21 13:36:44,2022-07-21 13:36:45,0.391s,PASSED
+productList =  }).collect(Collectors.toList()),Chrome 103.0.5060.114,,,2022-07-21 13:36:45,2022-07-21 13:36:45,0.046s,PASSED
+for (def productName : productList),Chrome 103.0.5060.114,,,2022-07-21 13:36:45,2022-07-21 13:37:19,34.459s,PASSED
+sample.Checkout.CheckoutShopWithGlobalVariable(),Chrome 103.0.5060.114,,,2022-07-21 13:37:19,2022-07-21 13:37:50,30.706s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-21 13:37:50,2022-07-21 13:37:51,0.702s,PASSED

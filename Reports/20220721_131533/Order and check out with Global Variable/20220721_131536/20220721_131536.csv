@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order and check out with Global Variable,Chrome 103.0.5060.114,,,2022-07-21 13:17:52,2022-07-21 13:20:35,2m - 42.708s,PASSED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,Chrome 103.0.5060.114,,,2022-07-21 13:17:53,2022-07-21 13:18:58,1m - 5.597s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 103.0.5060.114,,,2022-07-21 13:17:53,2022-07-21 13:18:09,15.348s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 103.0.5060.114,,,2022-07-21 13:18:09,2022-07-21 13:18:09,0.341s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 103.0.5060.114,,,2022-07-21 13:18:09,2022-07-21 13:18:12,2.630s,PASSED
+sample.Shop.addToCartWithGlobalVariable(),Chrome 103.0.5060.114,,,2022-07-21 13:18:12,2022-07-21 13:18:21,8.899s,PASSED
+"sample.Checkout.CheckoutShop(firstName, lastName, companyName, country, address, city, postCode, Phone)",Chrome 103.0.5060.114,,,2022-07-21 13:18:21,2022-07-21 13:18:53,31.896s,PASSED
+sample.Login.logoutFromApplication(),Chrome 103.0.5060.114,,,2022-07-21 13:18:53,2022-07-21 13:18:58,5.062s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-21 13:18:58,2022-07-21 13:18:58,0.677s,PASSED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product using coupon,Chrome 103.0.5060.114,,,2022-07-21 13:18:58,2022-07-21 13:20:35,1m - 36.865s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 103.0.5060.114,,,2022-07-21 13:18:58,2022-07-21 13:19:11,12.949s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 103.0.5060.114,,,2022-07-21 13:19:11,2022-07-21 13:19:12,0.306s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 103.0.5060.114,,,2022-07-21 13:19:12,2022-07-21 13:19:14,2.634s,PASSED
+sample.Shop.applyCouponAndAddToCartWithGlobalVariable(),Chrome 103.0.5060.114,,,2022-07-21 13:19:14,2022-07-21 13:19:51,36.781s,PASSED
+sample.Checkout.CheckoutShopWithGlobalVariable(),Chrome 103.0.5060.114,,,2022-07-21 13:19:51,2022-07-21 13:20:26,35.108s,PASSED
+sample.Login.logoutFromApplication(),Chrome 103.0.5060.114,,,2022-07-21 13:20:26,2022-07-21 13:20:34,8.242s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-21 13:20:34,2022-07-21 13:20:35,0.707s,PASSED
